@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #00bbff, #cccccc);
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jokenpo-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.jokenpo-header {
+  margin-bottom: 20px;
+}
+
+.jokenpo-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.jokenpo-choices {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.jokenpo-choices button {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #797979;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.jokenpo-choices button:hover {
+  background-color: #f5f5f5;
+}
+
+.jokenpo-choices button:active {
+  background-color: #ddd;
+}
+
+.jokenpo-result {
+  margin-bottom: 20px;
+}
+
+.jokenpo-result p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.jokenpo-player-choice {
+  margin-bottom: 20px;
+}
+
+.jokenpo-player-choice p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.jokenpo-computer-choice {
+  margin-bottom: 20px;
+}
+
+.jokenpo-computer-choice p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
